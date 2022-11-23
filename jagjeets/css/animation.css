@@ -1,0 +1,84 @@
+body{
+    margin:0;
+}
+.div1{
+    height:200px;
+    width:200px;
+    background-color:yellow;
+    border-radius: 50%;
+    position: absolute;
+    
+    animation-name: jagjeet;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+
+}
+ @keyframes jagjeet{
+ 0% {
+    left:0px; 
+    top:0px;
+    background-color: blue;
+    background-image: url(/images/nature-images..jpg);
+}
+10%{
+    left:0px;
+    top:100px;
+    background-color: aqua;
+}
+0%{
+    left:100px;
+    top:100px;
+    background-image: url(/images/nature-wallpaper-27.jpg);
+}
+30%{
+    left:100px;
+    top:200px;
+
+}
+
+40%{
+    left:200px;
+    top:200px;
+    background-image: url(/images/thumb-1920-143507.jpg) ;
+    rotate: 100%;
+}
+50%{
+left:200px;
+top:300px;
+background-color: aqua;
+}
+50%{
+    left:200px;
+    top:300px;
+  background-image: url(/images/Natural-Images-HD-1080p-Download-with-Keyhole-Arch-at-Pfeiffer-Beach.jpg);
+    }
+60%{
+    left:300px;
+    top:300px;
+    background-color: aqua;
+}
+70%{
+    left:300px;
+    top:400px;
+    background-image: url(/images/nature-wallpaper-27.jpg);
+}    
+80%{
+    left:400px;
+    top:400px;
+    background-color:pink;
+}
+90%{
+    left:400px;
+    top:500px;
+   background-image: url(/images/nature-images..jpg);
+}
+100%{
+    left:500px;
+    top:500px;
+    background-color:red;
+    
+
+
+
+}
